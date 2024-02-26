@@ -100,6 +100,12 @@ extension UsersViewController: UITableViewDataSource {
 
 //MARK: Table View Delegate
 extension UsersViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let profileVC = UINavigationController(rootViewController: ProfileViewController())
+        profileVC.modalPresentationStyle = .fullScreen
+        present(profileVC, animated: true)
+        
+        usersTableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
