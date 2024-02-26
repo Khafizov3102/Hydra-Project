@@ -35,7 +35,7 @@ final class RegistrationViewController: UIViewController {
     }()
     
 //    private let mainTabBar = MainTabBarController()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -67,6 +67,9 @@ final class RegistrationViewController: UIViewController {
     
     @objc
     private func regButtonPressed() {
+        let usersVC = UINavigationController(rootViewController: UsersViewController())
+        usersVC.modalPresentationStyle = .fullScreen
+        present(usersVC, animated: true)
     }
     
     @objc

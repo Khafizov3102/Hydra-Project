@@ -52,7 +52,9 @@ final class AuthViewController: UIViewController {
     
     @objc
     private func authButtonPressed() {
-
+        let usersVC = UINavigationController(rootViewController: UsersViewController())
+        usersVC.modalPresentationStyle = .fullScreen
+        present(usersVC, animated: true)
     }
     
     @objc

@@ -18,6 +18,8 @@
 		2DA0C7262B8B7AD2001C4337 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0C7212B8B7AD1001C4337 /* UIFont + Extension.swift */; };
 		2DA0C7272B8B7AD2001C4337 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0C7222B8B7AD1001C4337 /* UILabel + Extension.swift */; };
 		2DA0C7282B8B7AD2001C4337 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0C7232B8B7AD1001C4337 /* UIButton + Extension.swift */; };
+		2DBF877F2B8C02C500C1E150 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF877E2B8C02C500C1E150 /* UsersViewController.swift */; };
+		2DBF87812B8C098A00C1E150 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF87802B8C098A00C1E150 /* AddUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2DA0C7212B8B7AD1001C4337 /* UIFont + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		2DA0C7222B8B7AD1001C4337 /* UILabel + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		2DA0C7232B8B7AD1001C4337 /* UIButton + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		2DBF877E2B8C02C500C1E150 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		2DBF87802B8C098A00C1E150 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			children = (
 				2DA0C71A2B8B7A3D001C4337 /* AuthViewController.swift */,
 				2DA0C71C2B8B7A70001C4337 /* RegistrationViewController.swift */,
+				2DBF877E2B8C02C500C1E150 /* UsersViewController.swift */,
+				2DBF87802B8C098A00C1E150 /* AddUserViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBF87812B8C098A00C1E150 /* AddUserViewController.swift in Sources */,
 				2DA0C7032B8B785B001C4337 /* AppDelegate.swift in Sources */,
 				2DA0C71B2B8B7A3D001C4337 /* AuthViewController.swift in Sources */,
 				2DA0C7272B8B7AD2001C4337 /* UILabel + Extension.swift in Sources */,
@@ -199,6 +206,7 @@
 				2DA0C7052B8B785B001C4337 /* SceneDelegate.swift in Sources */,
 				2DA0C7282B8B7AD2001C4337 /* UIButton + Extension.swift in Sources */,
 				2DA0C7242B8B7AD1001C4337 /* UIColor + Extension.swift in Sources */,
+				2DBF877F2B8C02C500C1E150 /* UsersViewController.swift in Sources */,
 				2DA0C7262B8B7AD2001C4337 /* UIFont + Extension.swift in Sources */,
 				2DA0C7252B8B7AD2001C4337 /* AuthTextFieldForm.swift in Sources */,
 			);
